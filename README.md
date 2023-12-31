@@ -1,6 +1,6 @@
 # Interactive Shell-Based Resume
 
-An fun and interactive shell based resume with hyperlinks and tech savy theme UI/UX
+An fun and interactive shell based resume with hyperlinks and tech savy themed UI/UX
 
 ## How to Use
 
