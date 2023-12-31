@@ -144,13 +144,18 @@ def work_summary():
             
 
 def contact_information():
-    print_green("My contact information:\n")
+    print_green("My contact information: (clickable links)\n")
     bigsleep()
     print("Telephone: (+91)7838844887")
     smallsleep()
-    print("Email: mehul22295@iiitd.ac.in")
+    print("Email: ", end = "")
+    print_hyperlink("mehul22295@iiitd.ac.in\n", "https://mail.google.com/mail/?view=cm&to=mehul22295@iiitd.ac.in")
     smallsleep()
-    print("LinkedIn: @mehulpahuja")
+    print("LinkedIn: ", end="")
+    print_hyperlink("@mehulpahuja\n", "https://www.linkedin.com/in/mehulpahuja/")
+    smallsleep()
+    print("github: ", end = "")
+    print_hyperlink("@mehulhere\n","http://github.com/mehulhere")
     smallsleep()
     print("Address: 65/2, Yusuf Sarai, Gautam Nagar Road, New Delhi 110016, India\n")
     smallsleep()
@@ -162,6 +167,7 @@ def main():
     while option != 0:
         os.system("cls")
         welcome_message()
+        bigsleep()
         option = int(input("Please enter your choice: "))
         os.system("cls")
         print()
