@@ -1,6 +1,6 @@
 # Interactive Shell-Based Resume
 
-This Python script creates an interactive shell-based resume where users can navigate through various sections of the resume.
+An fun and interactive shell based resume with hyperlinks and tech savy theme UI/UX
 
 ## How to Use
 
